@@ -1,0 +1,339 @@
+body {
+			
+			background-image: url('https://userscontent2.emaze.com/images/93b859f2-0037-49f8-af19-246cb1652f28/eb2ed28ab7b4d5fb653164394796a227.jpg');
+			max-height: 100%;
+			background-position: center;
+		}
+
+		#top-nav {
+			display: flex;
+			flex-wrap: wrap;
+			min-width: 100%;
+			top: 0;
+			position: sticky;
+			z-index: 1;
+			text-align: center;
+			background-color: black;
+			opacity: 0.9;
+			margin: -10px -10px 10px -10px;
+				
+		}
+		
+		h2 > a:visited {
+			color: pink;
+		}
+
+		h2 {
+			margin-left: 15px;
+			margin-right: 20px;
+			font-size: 15px;
+			font-family: Arial Narrow, sans-serif;
+			text-align: center;
+			display: flex;
+			flex-wrap: wrap;
+			
+		}
+		#top-right {
+			float: right;
+			display: flex;
+			margin-top: 10px;
+			flex-wrap: wrap;
+			font-weight: bolder;
+		}
+		
+		#footer {
+			display: flex;
+			flex-wrap: wrap;
+			
+			margin-top: 280px;
+			
+			background-color: gray;
+			font-weight: lighter;
+			
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+
+		}
+
+		#footer h4{
+			text-align: center;
+			margin-top: 9px;
+			margin-left: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			color: white;
+			font-family: "Palatino Linotype",Palatino, serif;
+
+		}
+		
+
+		@keyframes beat {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(0.9);
+			}
+		
+		}
+		
+		.bar {
+			width: 150px;
+			position: relative;
+			margin: 3px 1px 0 5px;
+			color: orange;
+			border-radius: 5px;
+			border-right: 1px solid gray;
+		}
+
+		.bar:hover {
+		background-color: red;
+		color: white;
+		border-right: 1px solid red;
+		transform: scale(1.1);
+		margin-top: 3px;
+		
+
+		}
+
+
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		.dropbtna {
+			width: 200px;
+     		height: 60px;
+     		margin-left: 34%;
+     		margin-top: 10px;
+     		float: left;
+     		border-radius: 5px;
+     		border: 1px solid gray;
+     		
+     	}
+
+     	.dropbtnb {
+			width: 200px;
+     		height: 60px;
+     		margin-left: 1%;
+     		margin-top: 10px;
+     		float: left;
+     		border-radius: 5px;
+     		background-color: gray;
+     	}
+		
+		.dropbtna h2, .dropbtnb h2{
+			color: white;
+			font-family: Big Caslon, serif;
+			font-size: 14px;
+			text-align: center;
+			margin-left: 50px;
+			
+
+		}
+		
+		.dropbtna:hover {
+			background-color: gray;
+			color: white;
+			border: 1px solid gray;
+		}
+		.dropbtnb:hover{
+
+			background-color: 
+			border: 1px solid gray;
+		}
+		.fa {
+			padding: 5px;
+			font-size: 16px;
+			width: 30px;
+			margin-left: 35px;
+			text-align: center;
+			text-decoration: none;
+			display: flex;
+			flex-wrap: wrap;
+			
+		}
+		.fa:hover {
+			opacity: 0.7;
+			transform: scale(1.5);
+		}
+		.fa-twitter {
+			color: #00ACEE;
+			animation-name: twitter;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		
+		}
+		.fa-instagram {
+			color: #F08080;
+			animation-name: twitter;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-facebook {
+			color: #3B5998;
+			animation-name: facebook;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-envelope {
+			color: orange;
+			animation-name: envelope;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-youtube {
+			color: red;
+			animation-name: youtube;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-whatsapp {
+			color: #4ac959;
+			animation-name: whatsapp;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-github {
+			color: white;
+			animation-name: github;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		.fa-wechat{
+			color: springgreen;
+			animation-name: wechat;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+		}
+		@keyframes twitter {
+			15% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes facebook {
+			25% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes youtube {
+			35% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes envelope {
+			45% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes whatsapp {
+			55% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes github {
+			65% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		@keyframes wechat {
+			75% {
+				transform: scale(1.3);
+				opacity: 0.5;
+			}
+		}
+		#top-right>div{position:relative;}
+		#top-right>div[data-tooltip]:hover::after{
+			content: attr(data-tooltip);
+			position: relative;
+			color: #00ACEE;
+			font-size: 14px;
+			font-style: italic;
+
+		}
+		.dropbtnb>div{position:relative;}
+		.dropbtnb>div[data-tooltip]:hover::after{
+			content: attr(data-tooltip);
+			position: absolute;
+			color: white;
+			font-size: 16px;
+			font-style: italic;
+			margin: 5px 10px 10px 10px;
+			text-align: center;
+		}
+
+		.dropbtna>div{position:relative;}
+		.dropbtna>div[data-tooltip]:hover::after{
+			content: attr(data-tooltip);
+			position: absolute;
+			color: white;
+			font-size: 16px;
+			font-style: italic;
+			margin: 5px 10px 10px 10px;
+			text-align: center;
+			width: 100px;
+
+	}
+	.divide1 {
+		
+		margin-top: 150px;
+
+		
+	}
+	
+    .developer {
+    	position: relative;
+    	border-radius: 5px;
+    	animation-name: beat;
+    	text-align: center;
+    	
+    }
+    .developer h1 {
+    		
+			color: white;
+			font-weight: bolder;
+			padding: 20px;
+			font-size: 42px;
+
+			font-family: Arial Narrow, sans-serif;
+			text-align: center;
+			display: inline-grid;
+			
+		}
+	.developer h1:hover{
+		animation-name: change;
+		transform: scale(1.3);
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+
+		}
+	@keyframes change {
+		0% {
+			color: red;
+		}
+		10% {
+			color: green;
+		}
+		20% {
+			color: blue;
+		}
+		30% {
+			color: orange;
+		}
+		40% {
+			color: indigo;
+		}
+		50% {color: pink;}
+		60% {color: violet;}
+		70% {color: gray;}
+		80% {color: springgreen;}
+		90% {color: cyan;}
+		100%{color: magenta;}
+	}
+	

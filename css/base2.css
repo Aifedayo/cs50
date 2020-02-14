@@ -1,0 +1,90 @@
+#header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1 {
+			font-size: 38px;
+			font-weight: bold;
+			margin-left: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: Goudy Old style, serif;
+			border-left: 4px solid rgb(218, 203, 24);
+		}
+
+		.fa {
+			font-size: 60px;
+			margin-top: 10px;
+			
+			margin-left: 20px;
+			color: rgb(218, 203, 24);;
+		}
+		.fa:hover{
+			color: #8B0000;
+		}
+		h5 {
+			margin-left: 10px;
+
+		}
+		li {
+			display: flex;
+			flex-wrap: wrap;
+
+		}
+		ol a:hover {
+			color: red;
+
+					}
+		.bar  {
+			margin-top: 20px;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		position: relative;
+     		display: flex;
+     		flex-wrap: wrap;
+		}
+		
+		.bar1 {
+			margin-top: 20px;
+			background-color: pink;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		position: relative;
+     		display: flex;
+     		flex-wrap: wrap;
+		}
+		.bar img, .bar1 img {
+			width: 380px;
+     		height: 350px;
+     		margin: 20px 20px 20px 10px;
+     		border-radius: 10px;
+		}
+
+		 
+		.table {
+			width: 450px;
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 10px 10px 30px;
+			border-radius: 5px;
+			float: right;
+			
+		}
+
+		table {
+                border: 2px solid rgb(218, 203, 24);
+                border-collapse: collapse;
+                width: 100%;
+                height: 380px;
+
+            }
+            th,td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th {
+                background-color: rgb(218, 203, 24);
+           }
+           tr {
+           	font-weight: bolder;
+           }

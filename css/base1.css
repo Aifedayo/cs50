@@ -1,0 +1,380 @@
+.contain {
+     		display: flex;
+     		flex-wrap: wrap;
+     	}
+     	#head {
+     		background-color: rgb(218, 203, 24);
+     		width: 100%;
+     		display: flex;
+     		flex-wrap: wrap;
+     		position: sticky;
+     		top: 0;
+     		z-index: 1;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+     	}
+     	.fa-home {
+     		font-size: 26px;
+     		color: white;
+     		margin: 5px 0 10px 10px;
+     		float: right;
+     	}
+     	.fa-home:hover {
+     		color: red;
+     		transform: scale(1.1);
+     	}
+
+     	#head h2 {
+     		color: white;
+     		font-size: 20px;
+     		margin: 5px 0 0 15px;
+     		font-family: Goudy Old Style, serif;
+     		margin-right: 800px;
+     		
+     	}
+     	#head h2:hover {
+     		color: red;
+     	}
+
+     	#head h3 {
+     		color: white;
+     		font-size: 14px;
+     		float: right;
+     		margin: 8px 0 0 15px;
+     		font-family: Arial Narrow, sans-serif;
+     		font-weight: bolder;
+
+
+     	}
+     	#head h3:hover {
+     		color: #F71B17;
+     	}
+
+
+     	img {
+     		width: 250px;
+     		height: 200px;
+     	
+     	}
+     	.divide1 {
+     		margin-top: 20px;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		position: relative;
+     		display: flex;
+     		flex-wrap: wrap;
+     	}
+     	.divide1 img {
+     		width: 250px;
+     		height: 200px;
+     		margin-bottom: 20px;
+     	}
+
+     	.image1, .image2, .image3, .image4, .image5{
+     		width: 250px;
+     		height: 300px;
+     		background-color: white;
+     		display: flex;
+     		float: left;
+     		flex-wrap: wrap;
+     		margin: 10px 0 0 15px;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     	}
+     	.image1 p, .image2 p, .image3 p, .image4 p, .image5 p{
+     		color: rgb(254, 69, 0);
+     		font-family: Luminari, fantasy;
+     		font-size: 20px;
+     		margin: 0px 15px 0 60px;
+     	}
+     	#view {
+     		width: 100px;
+     		height: 30px;
+     		background-color: rgb(218, 203, 24);
+     		border-radius: 25px;
+     		margin-left: 60px;
+     	}
+     	 #hiddenText {
+            display: none;
+           }
+
+           #view:hover  #hiddenText {
+            display: flex;
+            background-color: white;
+            transform: scale(1.3);
+           }
+           #view h4 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 10px 0 0 15px;
+            text-decoration: none;
+            font-family: Luminari, fantasy;
+           }
+   			h6 {
+   				font-family: Goudy Old Style;
+   				font-size: 20px;
+   				margin: 2px 0 0 12px;
+   				color:white;
+   			}
+
+     		.divide2 {
+     			background-color: #0B102B;
+     			margin: 20px 0 10px 0;
+     			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		display: flex;
+     		flex-wrap: wrap;	
+     		border-radius: 5px;	
+     		}
+     		.divide3 {
+     			background-color: white;;
+     			margin: 20px 0 10px 0;
+     			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		position: relative;
+     		display: flex;
+     		flex-wrap: wrap;
+     		border-radius: 5px;
+     		
+     		}
+     	.divide2 img{
+     		width: 220px;
+     		height: 250px;
+     		float: left;
+     		margin: 40px 10px 100px 20px;
+     		border-radius: 5px;
+     	}
+     	.divide3 img{
+     		width: 220px;
+     		height: 250px;
+     		float: left;
+     		margin: 40px 10px 100px 20px;
+     		border-radius: 5px;
+     	}
+     	.text-box h2, .text-box1 h2 {
+     		font-size: 24px;
+     		color: rgb(218, 203, 24);
+     		font-family: Luminari, fantasy;
+     	}
+     	.text-box > p {
+     		color: white;
+     		text-align: justify;	
+     	}
+     	.text-box1 > p {
+     		color: #0B102B;
+     		text-align: justify;
+     	}
+
+           .up {
+            background-color: rgb(255, 69, 0);
+            width: 120px;
+            height: 40px;
+            text-align: center;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0px;
+            left: 400px;
+            z-index: 1;
+            font-size: 20px;
+            color: white;
+            font-family: Goudy Old Style, serif;
+        }
+        .up a {
+        	color: white;
+        }
+           .up:hover {
+            background-color: rgb(218, 203, 24);
+            transform: scale(1.1);
+            border-radius: 1px solid rgb(254, 69,0);
+            color: white;
+           
+           }
+
+ 		#creative {
+           
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		display: flex;
+     		flex-wrap: wrap;
+     		width: 100%;
+     		background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ),url(https://www.bitdegree.org/tutorials/wp-content/uploads/2018/08/what-is-a-web-developer.jpg);
+
+     	
+        }
+           .hire-me, .locate-me{
+         	width: 200px;
+     		height: 50px;
+     		display: flex;
+     		float: left;
+     		font-family: Big Caslon, serif;
+     		font-size: 24px;
+     		color: white;
+     		flex-wrap: wrap;
+     		border-radius: 5px;
+     		margin: 10px 20px 10px 10px;
+     		background-color: #172C6A;
+     	}
+           .text{
+            margin: 50px 0 0 0px;
+            font-size: 26px;
+            color: white;
+            text-align: justify;
+            margin: 0 10px 0 10px;
+            font-family: Luminari, fantasy;
+
+           }
+           .text1{
+            margin: 50px 0 0 0px;
+            font-size: 18px;
+            color: white;
+            text-align: justify;
+            margin: 0 10px 0 10px;
+            font-family: Goudy Old Style, serif;
+            display: flex;
+            flex-wrap: wrap;
+           }
+           
+           .locate-me:hover{
+            background-color: #081335;
+            color: white;
+           }
+
+            .locate-me h5 {
+            font-size: 18px;
+            margin: 12px 5px 5px 35px;
+            color: white;
+            font-family: Luminari, fantasy;
+           }
+           .hire-me h5 {
+            font-size: 18px;
+            margin: 12px 5px 5px 35px;
+            color: white;
+            font-family: Luminari, fantasy;
+           }
+
+           .hire-me:hover{
+            background-color: rgb(218, 203, 24);
+            color: white;
+           }
+
+          
+     	#semi-footer {
+           margin-top: 5px;
+     		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+     		position: relative;
+     		display: flex;
+     		flex-wrap: wrap;
+     		background-color: #191A1E;
+     		width: 100%;
+     	}
+           i {
+            font-family: Goudy Old Style, serif;
+            font-size: 20px;
+            color: white;
+            float: center;
+            margin-left: 70px;   
+
+           }
+           .newsletter, .contact-form, .address {
+         	width: 350px;
+     		height: 350px;
+     		display: flex;
+     		float: left;
+     		font-family: Big Caslon, serif;
+     		font-size: 24px;
+     		color: white;
+     		flex-wrap: wrap;
+     		margin: 10px 20px 10px 10px;
+     	}
+     	 .newsletter h4 {
+     	 	position: relative;
+     	 	font-size: 18px;
+     	 	font-family: Goudy Old Style;
+     	 	display: flex;
+     	 	flex-wrap: wrap;
+     	 }
+
+     	.address small {
+            position: relative;
+            font-size: 16px;
+            font-family: Goudy Old Style;
+            margin: 40px 40px 5px 10px;
+            color: white;
+
+        }
+        .address small:hover {
+        	color: rgb(218, 203, 24);
+        }
+        .newsletter input[type=email] {
+            color: #0B102B;
+            font-size: 18px;
+            margin-top: 10px;
+            width: 220px;
+            font-family: Goudy Old Style, serif;
+            border-radius: 5px;
+        }
+
+        .newsletter button {
+            background-color: rgb(256, 69, 0);
+            color: white;
+            font-size: 18px;
+            border: 3px solid rgb(254,69,0);
+            border-radius: 5px;
+        }
+
+        .newsletter button:hover {
+        	background-color: rgb(218, 203, 24);
+        	 border: 3px solid rgb(218, 203, 24);
+        }
+        .contact-form input[type=textfield]{
+            position: relative;
+            width: 270px;
+            height: 150px;
+            background-color: white;
+            color:rgb(218, 203, 24);
+            font-weight: bolder;
+            font-family: Goudy Old Style, serif;
+            margin-top: 10px;
+            text-underline-position: left;
+            border-radius: 5px;
+
+        }
+        .contact-form input[type=text], .contact-form input[type=email] {
+            position: relative;
+            font-size: 18px;
+            width:270px;
+            color: rgb(218, 203, 24);
+            font-family: Goudy Old Style, serif;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        
+        .contact-form button {
+            background-color: rgb(254,69,0);
+            width: 270px;
+            height: 35px;
+            position: relative;
+            border: 3px solid rgb(254,69,0);
+            font-size: 16px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+        	background-color: rgb(218, 203, 24);
+        	 border: 3px solid rgb(218, 203, 24);
+        }
+        h4 {
+        	position: relative;
+        	font-size: 18px;
+        	margin-left: 10px;
+        }
+        .address .fa {
+        	position: relative;
+        }
+        .address .fa:hover {
+        	color: rgb(218, 203, 24);
+        }
+        #footer {
+                width: 99%;
+                height: 40px;
+                background-color: rgb(254, 69, 0);
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+                border-radius: 5px;
+            } 
